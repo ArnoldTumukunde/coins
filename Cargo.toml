@@ -35,7 +35,7 @@ sha3 = "0.10.8"
 
 # bip32
 hmac = "0.12.1"
-k256 = { version = "0.13.3", features = ["std", "arithmetic"] }
+k256 = { branch = "master", features = ["std", "arithmetic"], git = "https://github.com/ArnoldTumukunde/elliptic-curves.git" }
 sha2 = "0.10.8"
 thiserror = "1.0.61"
 
